@@ -1,0 +1,1 @@
+NPC @|Hello|This is test dialogue|Check out my puzzle|ChangeScene|/

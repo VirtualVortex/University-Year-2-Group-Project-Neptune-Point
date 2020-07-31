@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{528441bd-340e-409c-88e2-38a3b37800d0}">
+		<property name="assetPath">
+			<value>Owl Flap.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>12.478639455782313</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{06c9c4d9-dbb8-4b6d-ac5b-ae6b76a615aa}</destination>
+		</relationship>
+	</object>
+</objects>

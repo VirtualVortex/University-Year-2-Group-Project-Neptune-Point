@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{ddcadc3c-e736-4895-9b6e-86616f77b836}">
+		<property name="assetPath">
+			<value>Vinyl Hiss.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>70</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{06c9c4d9-dbb8-4b6d-ac5b-ae6b76a615aa}</destination>
+		</relationship>
+	</object>
+</objects>

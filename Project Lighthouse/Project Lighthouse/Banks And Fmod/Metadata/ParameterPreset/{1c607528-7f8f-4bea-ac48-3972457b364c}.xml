@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{1c607528-7f8f-4bea-ac48-3972457b364c}">
+		<property name="name">
+			<value>Ropeintense</value>
+		</property>
+		<relationship name="folder">
+			<destination>{4c929b21-0962-4474-ab4a-db998433a004}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d6d95b68-e27c-46d6-9ae2-fb887eda451d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d6d95b68-e27c-46d6-9ae2-fb887eda451d}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

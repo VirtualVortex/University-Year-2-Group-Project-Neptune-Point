@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{3f78c8f5-13c0-4849-98d0-ce0738b0fe11}">
+		<property name="assetPath">
+			<value>Leather pull sfx.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>27.239569160997732</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{06c9c4d9-dbb8-4b6d-ac5b-ae6b76a615aa}</destination>
+		</relationship>
+	</object>
+</objects>

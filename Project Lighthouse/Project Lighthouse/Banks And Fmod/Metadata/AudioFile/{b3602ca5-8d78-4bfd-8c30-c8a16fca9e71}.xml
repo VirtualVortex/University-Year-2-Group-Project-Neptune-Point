@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{b3602ca5-8d78-4bfd-8c30-c8a16fca9e71}">
+		<property name="assetPath">
+			<value>Acoustic Grand Piano_1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>22.50845804988662</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{06c9c4d9-dbb8-4b6d-ac5b-ae6b76a615aa}</destination>
+		</relationship>
+	</object>
+</objects>

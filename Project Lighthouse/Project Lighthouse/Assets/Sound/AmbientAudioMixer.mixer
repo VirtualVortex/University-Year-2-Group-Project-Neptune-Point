@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AmbientAudioMixer
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  - {fileID: 245434163731346564}
+  - {fileID: 245593028129524918}
+  - {fileID: 245724344206058760}
+  - {fileID: 245906240307697232}
+  - {fileID: 245532436164746446}
+  - {fileID: 245395636531344000}
+  - {fileID: 245327418164993556}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - 66460e3294f5bbd40b45d6f6c7829921
+    - 10d210794cc9d3641bf77e5053d9a894
+    - cc97dbdfccebb0e40991f9ae39c75edb
+    - 552b888057913b4418e2aeee8377ac93
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 245532436164746446}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 66460e3294f5bbd40b45d6f6c7829921
+  m_Children:
+  - {fileID: 243836874588205990}
+  - {fileID: 243573404014459190}
+  - {fileID: 243093328696904152}
+  m_Volume: 228e900f546a11247af727f1749879ca
+  m_Pitch: 9f56342bce71c4b4b9c62af4b9abb6e5
+  m_Effects:
+  - {fileID: 24400004}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 583b3352e792a9945a514c257a902a07
+  m_EffectName: Attenuation
+  m_MixLevel: 2cd242e6c0c340b45aa7bcd7e0365a58
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Snapshot
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 6ed81698eb013e34eba9716e8ad3b909
+  m_FloatValues:
+    5544d7b1d7aea014d82ee20ba0374be6: 0.025578514
+    66068b38b9065844f8361b0bbc9cb253: 0.23288241
+    8bcdfb6e48f2b3e46a0bb5ee2db86a25: 0.10800299
+    228e900f546a11247af727f1749879ca: 6.2251854
+  m_TransitionOverrides: {}
+--- !u!243 &243093328696904152
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterDrops
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 552b888057913b4418e2aeee8377ac93
+  m_Children: []
+  m_Volume: 5544d7b1d7aea014d82ee20ba0374be6
+  m_Pitch: 78dafe2b662462a489e436d2d80d6fe0
+  m_Effects:
+  - {fileID: 244263375751615522}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &243573404014459190
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sea
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: cc97dbdfccebb0e40991f9ae39c75edb
+  m_Children: []
+  m_Volume: 66068b38b9065844f8361b0bbc9cb253
+  m_Pitch: b8ac08c48d985844491dd2ab112a4aa4
+  m_Effects:
+  - {fileID: 244425429807268506}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &243836874588205990
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wind
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 10d210794cc9d3641bf77e5053d9a894
+  m_Children: []
+  m_Volume: 8bcdfb6e48f2b3e46a0bb5ee2db86a25
+  m_Pitch: 3c7f1181afaa6c94f9e9a454fb1d8d03
+  m_Effects:
+  - {fileID: 244457959758097244}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &244263375751615522
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: f0108eb318962dc43b133bc390a1d416
+  m_EffectName: Attenuation
+  m_MixLevel: 6dfec6ceb57a53a46a636766c8ba56d0
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244425429807268506
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 69d4c0cd1347ff446a92416364cb3635
+  m_EffectName: Attenuation
+  m_MixLevel: b313e6bd28258034e90c99c411550ed5
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244457959758097244
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 2a066fcd9582ffa4ea402dc87fab6fbf
+  m_EffectName: Attenuation
+  m_MixLevel: 7328662e625c0ef46b992e05028cfc72
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &245327418164993556
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sea/WaterDrops
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: ac02a8fe6a33b154284c4c4c0258abe7
+  m_FloatValues:
+    5544d7b1d7aea014d82ee20ba0374be6: 20
+    66068b38b9065844f8361b0bbc9cb253: 20
+    8bcdfb6e48f2b3e46a0bb5ee2db86a25: 0.10800299
+    228e900f546a11247af727f1749879ca: 6.2251854
+  m_TransitionOverrides: {}
+--- !u!245 &245395636531344000
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wind/Sea
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 31775611303c5224db10c3387c863398
+  m_FloatValues:
+    5544d7b1d7aea014d82ee20ba0374be6: 0.23288241
+    66068b38b9065844f8361b0bbc9cb253: 20
+    8bcdfb6e48f2b3e46a0bb5ee2db86a25: 20
+    228e900f546a11247af727f1749879ca: 6.2251854
+  m_TransitionOverrides: {}
+--- !u!245 &245434163731346564
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wind
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: f98213aba8144334589b13aae9f1b571
+  m_FloatValues:
+    5544d7b1d7aea014d82ee20ba0374be6: 0.025578514
+    66068b38b9065844f8361b0bbc9cb253: 0.025578512
+    8bcdfb6e48f2b3e46a0bb5ee2db86a25: 20
+    228e900f546a11247af727f1749879ca: 6.2251854
+  m_TransitionOverrides: {}
+--- !u!245 &245532436164746446
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wind/WaterDrops
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 35cd4b18306b7e34ea90ad252fe2e544
+  m_FloatValues:
+    5544d7b1d7aea014d82ee20ba0374be6: 20
+    66068b38b9065844f8361b0bbc9cb253: 0.23288241
+    8bcdfb6e48f2b3e46a0bb5ee2db86a25: 20
+    228e900f546a11247af727f1749879ca: 6.2251854
+  m_TransitionOverrides: {}
+--- !u!245 &245593028129524918
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sea
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 34fe7ab205e602a4ab8d6c4dc3c68639
+  m_FloatValues:
+    5544d7b1d7aea014d82ee20ba0374be6: 20
+    66068b38b9065844f8361b0bbc9cb253: 0.10800299
+    8bcdfb6e48f2b3e46a0bb5ee2db86a25: 0.10800299
+    228e900f546a11247af727f1749879ca: 6.2251854
+  m_TransitionOverrides: {}
+--- !u!245 &245724344206058760
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterDrops
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: cb9c450248301cb41a7c248452069dc3
+  m_FloatValues:
+    5544d7b1d7aea014d82ee20ba0374be6: 0.10800299
+    66068b38b9065844f8361b0bbc9cb253: 0.10800299
+    8bcdfb6e48f2b3e46a0bb5ee2db86a25: 0.10800299
+    228e900f546a11247af727f1749879ca: 6.2251854
+  m_TransitionOverrides: {}
+--- !u!245 &245906240307697232
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Default
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: eca8d539c86afcc4484d9663b3cbf4ae
+  m_FloatValues:
+    5544d7b1d7aea014d82ee20ba0374be6: 0.025578514
+    66068b38b9065844f8361b0bbc9cb253: 0.23288241
+    8bcdfb6e48f2b3e46a0bb5ee2db86a25: 0.10800299
+    228e900f546a11247af727f1749879ca: 6.2251854
+  m_TransitionOverrides: {}
