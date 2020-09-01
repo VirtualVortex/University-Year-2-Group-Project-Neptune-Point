@@ -6,23 +6,21 @@ The code created for this game was a collaboration between me and Josh Grillo @J
 
 <h3> Max Oates (Me) </h3>
 
-
-Player movement
-
-wall climbing
-
-Diary manager
-
-Chest/combination lock puzzle
-
-Anxiety mechanic/Dynamic audio
-
+<ul style="list-style-type:disc;">
+  <li>Player movement</li>
+  <li>wall climbing</li>
+  <li>The save and load system</li>
+  <li>Diary manager</li>
+  <li>Chest/combination lock puzzle</li>
+  <li>The pause menu</li>
+  <li>Anxiety mechanic/Dynamic audio</li>
+</ul>
 
 <h3> Josh Grillo </h3>
 
+<ul style="list-style-type:disc;">
+  <li>Owl minigame</li>
+  <li>Scene transition manager</li>
+  <li>Save and Load system</li>
+</ul>
 
-Owl minigame
-
-Scene transition manager
-
-Save and Load system
